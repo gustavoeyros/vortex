@@ -1,3 +1,4 @@
+
 /*### COMEÇO DA NAVBAR ###*/
 #header{
     width: 100%;
@@ -12,13 +13,13 @@
     padding-right: 0;
     margin-left: 15px;
     margin-right: 15px;
-    color: purple;
+    color: #69a39c;
     border-bottom: solid 4px transparent;
 }
 
 #header .nav-link:hover{
-    border-bottom: solid 4px purple;
-    color: red;
+    border-bottom: solid 4px #457164;
+    color: #457164;
 }
 /*### FIM DA NAVBAR ###*/
 
@@ -30,8 +31,8 @@
     padding-right: 1.4em;
 }
 .button-primary{
-    background-color: purple;
-    border-color: purple;
+    background-color: #457164;
+    border-color: #457164;
     color: white;
 }
 .button-primary:hover{
@@ -41,8 +42,8 @@
 }
 .button-primary-outline{
     background-color: transparent;
-    border-color: purple;
-    color: purple;
+    border-color: #457164;
+    color: #457164;
 }
 .button-primary-outline:hover{
     background-color: red;
@@ -64,3 +65,17 @@
 }
 
 /*FIM DA HOME*/
+
+/*COMEÇO DO SOBRE*/
+.title{
+    text-transform: uppercase;
+}
+.subtitle{
+    color: gray;
+    font-weight: 400;
+}
+.block{
+    margin-bottom: 120px;
+}
+
+/*FIM DO SOBRE*/
