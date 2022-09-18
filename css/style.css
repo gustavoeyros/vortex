@@ -1,0 +1,66 @@
+/*### COMEÇO DA NAVBAR ###*/
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: purple;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 4px purple;
+    color: red;
+}
+/*### FIM DA NAVBAR ###*/
+
+/*COMEÇO DA BUTTONS HOME*/
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+}
+.button-primary{
+    background-color: purple;
+    border-color: purple;
+    color: white;
+}
+.button-primary:hover{
+    background-color: red;
+    border-color: red;
+    color: red;
+}
+.button-primary-outline{
+    background-color: transparent;
+    border-color: purple;
+    color: purple;
+}
+.button-primary-outline:hover{
+    background-color: red;
+    border-color: red;
+}
+
+/*FIM DA BUTTONS HOME*/
+
+
+/*COMEÇO DA HOME*/
+
+#comeco h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#comeco h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*FIM DA HOME*/
