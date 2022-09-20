@@ -1,3 +1,4 @@
+
 a{
     color: #69a39c  ;
 }
@@ -127,3 +128,60 @@ a:hover{
     }
 }
 /*FIM DA EQUIPE*/
+
+/*COMEÇO DOS PROJETOS*/
+
+#projetos .turizer{
+    display: block;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+#projetos .turizer .img-container-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.button-projects {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+@media (max-width:767.98px){
+    #projetos .turizer .img-container{
+        height: 140px;
+    }
+    #projetos .turizer .img-container img{
+        max-height: 140px;
+    }
+}
+/*FIM DOS PROJETOS*/
+
+/* COMEÇO CONTATOS */
+#contato .email{
+    border-radius: 5px;
+    background-color: #457164;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+}
+#contato .email form{
+    width: 60%;
+    display: flex;
+}
+#contato .email .form-control, #contato .email .form-control::placeholder{
+  background: none;
+  color: white;
+}
+
+/* FIM CONTATOS */
